@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitapApi", "KitapApi\KitapApi.csproj", "{F9EA0755-D60B-447A-8822-98BFD5447130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitaplarUI", "KitaplarUI\KitaplarUI.csproj", "{F35EBE03-B0DC-4C62-AD44-6E592164EDEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9EA0755-D60B-447A-8822-98BFD5447130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EA0755-D60B-447A-8822-98BFD5447130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EA0755-D60B-447A-8822-98BFD5447130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EA0755-D60B-447A-8822-98BFD5447130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35EBE03-B0DC-4C62-AD44-6E592164EDEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35EBE03-B0DC-4C62-AD44-6E592164EDEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35EBE03-B0DC-4C62-AD44-6E592164EDEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35EBE03-B0DC-4C62-AD44-6E592164EDEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53B70903-FAF5-43E7-BFB3-6BC92BB2AA56}
+	EndGlobalSection
+EndGlobal
