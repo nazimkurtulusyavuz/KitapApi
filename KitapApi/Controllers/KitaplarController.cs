@@ -30,5 +30,13 @@ namespace KitapApi.Controllers
         {
             return _db.Kitaplar.Find(id);
         }
+
+        [HttpPost]
+        public async Task<ActionResult<Kitap>> PostKitap(Kitap kitap)
+        {
+            _db.Kitaplar.Add(kitap);
+            await _db.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetKitap), new { id = kitap.Id }, kitap);
+        }
     }
 }

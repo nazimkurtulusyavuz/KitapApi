@@ -29,7 +29,7 @@ namespace KitapApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<KitaplarDbContext>(optionsbuilder => optionsbuilder.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
-            services.AddCors(options => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin()));
+            services.AddCors(options => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
