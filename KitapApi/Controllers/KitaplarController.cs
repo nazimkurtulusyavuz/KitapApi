@@ -36,7 +36,8 @@ namespace KitapApi.Controllers
         {
             _db.Kitaplar.Add(kitap);
             await _db.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetKitap), new { id = kitap.Id }, kitap);
+            //return CreatedAtAction(nameof(GetKitap), new { id = kitap.Id }, kitap);
+            return kitap;
         }
     }
 }
